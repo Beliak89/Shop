@@ -60,6 +60,25 @@ a {
     font-family: Roboto;
     color: #FFFFFF;
 }
+.basket{
+    /*position: relative;*/
+    margin-right: 59px;
+    margin-top: 49px;
+}
+.ellipse{
+    float: right;
+    position: absolute;
+    top: 49px;
+    right: 50px;
+    display:none;   
+}
+/*.count{
+    float: right;
+    position: absolute;
+    top: 49px;
+    right: 50px;
+    display:none;
+}*/
 .registration{
     width: 272px;
 }
@@ -87,3 +106,101 @@ a {
     font-style: normal;
     color: #888888;
 }
+.goods{
+    position: relative; /*пробный вариант. обычно тут значение absolute*/
+    top: 185px;
+    left: 13px;
+    width: 1252px;
+}
+.goods__product{
+    float: left;
+    width: 387px;
+    height: 500px;
+    margin: 85px 0px 28px 239px;
+    border: solid 1px #888888;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.pic{
+    margin: 38px 117px 29px 117px;
+}
+
+.goods__text{
+    box-sizing: border-box;
+    float: left;
+    width: 286px;
+    height: 83px;
+    margin-left: 51px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #888888;
+}
+/*.goods__button{
+    position: absolute; 
+    box-sizing: border-box;
+    width: 276px;
+    height: 62px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 56px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    background-color: #888888;
+    border: 1px solid #888888;
+}*/
+.goods__button{
+    /*position: absolute; /*Пробный вариант. Обычно позиционирования тут нет вообще*/
+    box-sizing: border-box;
+    width: 276px;
+    height: 62px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 56px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    background-color: #888888;
+    border: 1px solid #888888;
+}
+.dispno{
+    display: none;
+}
+.goods__product:hover .goods__button{
+    display:block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
