@@ -4,46 +4,43 @@ a {
     text-decoration:none;
     color: #FFFFFF;
 }
-body{
-    margin: 0;
+body {
+    margin: 0px;
 }
-.rectangle{
-    /*osition: absolute;*/
+.rectangle {
     width: 100%;
     height: 141px;
     left: 0px;
     top: 0px;
     background: #888888;   
 }
-.left_part{
+.left_part {
     width: 50%;
     height: 100%;
     box-sizing: border-box;
     float: left;
 }
-.right_part{
+.right_part {
     width: 50%;
     height: 100%;
     box-sizing: border-box;
     float: right;
 }
-.logo{
-    /*position: static;*/
+.logo {
     float:left;
     margin-left: 79px;
     margin-top: 37px;/* отступ 26px + отступ 11px внутри дива логотипа */
     box-sizing: border-box;
 }
-.line{
-    /*position: absolute;*/
+.line {
     width: 100%;
     height: 44px;
     top: 141px;
-    left: 0px;
+    left: 0;
     border-bottom: 1px solid #888888;
     box-sizing: border-box;
 }
-.left_part_text{
+.left_part_text {
     width: 312px;
     height: 50px;
     float: left;
@@ -56,42 +53,48 @@ body{
     color: #FFFFFF;
     box-sizing: border-box;
 }
-.right_part_text{
+.right_part_text {
     float: right;
     margin-top: 54px;
     font-size: 24px;
     font-family: Roboto;
     color: #FFFFFF;
 }
-.basket{
-    /*position: relative;*/
+.basket {
     margin-right: 59px;
     margin-top: 49px;
 }
-.ellipse{
+.ellipse {
+    width: 32px;
+    height: 32px;
+    border: solid 1px #F34141;
+    border-radius: 16px;
+    background-color: #F34141;
     float: right;
     position: absolute;
     top: 49px;
     right: 50px;
     display:none;   
 }
-/*.count{
-    float: right;
-    position: absolute;
-    top: 49px;
-    right: 50px;
-    display:none;
-}*/
-.registration{
+.count{
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    text-align: center;
+    box-sizing: border-box;
+}
+.registration {
     width: 272px;
 }
-.about{
+.about {
     width: 121px;
 }
-.help{
+.help {
     width: 155px;
 }
-.promo{
+.promo {
     float: left;
     margin-left: 393px;
     margin-top: 12px;
@@ -100,7 +103,7 @@ body{
     font-style: normal;
     color: #888888;
 }
-.start_shopping{
+.start_shopping {
     float: left;
     margin-left: 62px;
     margin-top: 12px;
@@ -109,13 +112,12 @@ body{
     font-style: normal;
     color: #888888;
 }
-.goods{
-    position: relative; /*пробный вариант. обычно тут значение absolute*/
-    top: 185px;
+.goods {
+    position: relative;
     left: 13px;
     width: 1252px;
 }
-.goods__product{
+.goods__product {
     float: left;
     width: 387px;
     height: 500px;
@@ -124,11 +126,11 @@ body{
     border-radius: 15px;
     box-sizing: border-box;
 }
-.pic{
+.pic {
+    height: 258px;
     margin: 38px 117px 29px 117px;
 }
-
-.goods__text{
+.goods__text {
     box-sizing: border-box;
     float: left;
     width: 286px;
@@ -139,23 +141,7 @@ body{
     font-family: Roboto;
     color: #888888;
 }
-/*.goods__button{
-    position: absolute; 
-    box-sizing: border-box;
-    width: 276px;
-    height: 62px;
-    border-radius: 5px;
-    float: left;
-    margin-left: 56px;
-    text-align: center;
-    font-size: 24px;
-    font-family: Roboto;
-    color: #FFFFFF;
-    background-color: #888888;
-    border: 1px solid #888888;
-}*/
-.goods__button{
-    /*position: absolute; /*Пробный вариант. Обычно позиционирования тут нет вообще*/
+.goods__button {
     box-sizing: border-box;
     width: 276px;
     height: 62px;
@@ -169,12 +155,11 @@ body{
     background-color: #888888;
     border: 1px solid #888888;
 }
-.dispno{
+.dispno {
     display: none;
 }
-.goods__product:hover .goods__button{
+.goods__product:hover .goods__button {
     display:block;
-    
 }
 
 
