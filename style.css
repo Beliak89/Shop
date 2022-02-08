@@ -10,8 +10,6 @@ body {
 .rectangle {
     width: 100%;
     height: 141px;
-    left: 0px;
-    top: 0px;
     background: #888888;   
 }
 .left_part {
@@ -29,7 +27,7 @@ body {
 .logo {
     float:left;
     margin-left: 79px;
-    margin-top: 37px;/* отступ 26px + отступ 11px внутри дива логотипа */
+    margin-top: 37px;
     box-sizing: border-box;
 }
 .line {
