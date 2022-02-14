@@ -1,50 +1,57 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" >
     <title>Desktop-1</title>
     <link rel="stylesheet" href="style.css">  
 </head>
-
 <body>
-        <div class="rectangle">
-            <div class="left_part">
-                <div class="logo"><a href="page_two.html"><img src="Combined-Shape.svg" alt="company logo"/></a></div>
-                <div class="left_part_text"><a href="page_two.html">Магазин</a></div>
-            </div>
-            <div class="right_part">
-                <div class="basket right_part_text"><a href="page_two.html"><img src="Vector.svg" alt="Basket"/></a></div>
-                <div class="ellipse">
-                    <div id="counter-value" class="count"></div>      <!--здесь должна быть цифра-->
+    <header class="header">
+        <div class="left_part">
+            <div><a href="page_two.html"><img src="Combined-Shape.svg" alt="company logo"/></a></div>
+            <div class="left_part_text"><a href="page_two.html">Магазин</a></div>
+        </div>
+        <div class="right_part">
+            <a class="right_part_text" href="page_two.html" >Зарегистрироваться</a>
+            <a class="right_part_text" href="page_two.html">О нас</a>
+            <a class="right_part_text" href="page_two.html" >Помощь</a>
+            <div class="basket"><a href="page_two.html">
+                <img src="Vector.svg" alt="Basket"/></a>
+                <div class="ellipse basket">
+                    <div id="counter-value" class="count"></div>
                 </div>
-                <a class="registration right_part_text" href="page_two.html" >Зарегистрироваться</a>
-                <a class="about right_part_text" href="page_two.html">О нас</a>
-                <a class="help right_part_text" href="page_two.html" >Помощь</a>        
-            </div>
+            </div>     
         </div>
+    </header>
         <div class="line">
-        <a href="page_two.html"><span class="promo">В течение всего месяца скидка на все товары 50%</span></a> 
-        <a href="page_two.html"><span class="start_shopping">Начать покупки</span></a>
+            <div class="inLine">
+                <a href="page_two.html"><span class="lineText">В течение всего месяца скидка на все товары 50%</span></a> 
+                <a href="page_two.html"><span class="lineText">Начать покупки</span></a>
+            </div>
         </div>
-        <div class="goods">
-            <div class="goods__product"><img class="pic" src="book1.png"/>
+        <div class="goodsContainer">
+            <div class="goodsProduct">
+                <img class="pic" src="book1.png"/>
                 <div class="goods__text">Гарри Поттер и философский камень</div>
-                <button class="goods__button dispno" onclick="onClick()">В корзину</button>
+                <button class="goods__button visibility" onclick="onClick()">В корзину</button>
             </div>
-            <div class="goods__product"><img class="pic" src="book2.png"/>
+            <div class="goodsProduct">
+                <img class="pic" src="book2.png"/>
                 <div class="goods__text">Вторая жизнь Уве</div>
-                <button class="goods__button dispno" onclick="onClick()">В корзину</button>
+                <button class="goods__button visibility" onclick="onClick()">В корзину</button>
             </div>
-            <div class="goods__product"><img class="pic" src="book3.png"/>
+            <div class="goodsProduct">
+                <img class="pic" src="book3.png"/>
                 <div class="goods__text">Цветы для Элджернона</div>
-                <button class="goods__button dispno" onclick="onClick()">В корзину</button>
+                <button class="goods__button visibility" onclick="onClick()">В корзину</button>
             </div>
-            <div class="goods__product"><img class="pic" src="book4.png"/>
+            <div class="goodsProduct">
+                <img class="pic" src="book4.png"/>
                 <div class="goods__text">Гордость и предубеждение</div>
-                <button class="goods__button dispno" onclick="onClick()">В корзину</button>
+                <button class="goods__button visibility" onclick="onClick()">В корзину</button>
             </div>
         </div>
+    <footer class="footer"></footer>    
     <script src="Button.js"></script>
 </body>
-
 </html>
